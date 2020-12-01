@@ -1,0 +1,29 @@
+.purple {
+  background-color: rgb(13, 0, 128);
+  color: white;
+}
+
+.lavender {
+  background-color: rgb(92, 118, 192);
+  color: white;
+}
+
+.pink {
+  background-color: rgb(231, 122, 140);
+  color: white;
+}
+
+.lightOrange {
+  background-color: rgb(238, 204, 130);
+  color: black;
+}
+
+.yellow {
+  background-color: rgb(241, 241, 28);
+  color: black;
+}
+
+.white {
+  background-attachment: rgb(255, 255, 255);
+  color: black;
+}
