@@ -1,0 +1,24 @@
+.timer {
+  margin-top: 35%;
+  font-size: 50px;
+}
+
+.circle {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 15%;
+  margin-left: 40%;
+  width: 200px;
+  height: 200px;
+}
+
+.play-pause-button {
+  text-align: center;
+  justify-content: center;
+  margin-right: 7%;
+  margin-top: 2%;
+}
