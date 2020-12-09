@@ -1,0 +1,41 @@
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#root {
+  background-color: gray;
+}
+
+.menu-container {
+  background-color: white;
+  border: black 2px solid;
+  height: 100vh;
+  width: 20%;
+}
+
+.hamburgerMenu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.hamburgerMenu-container {
+  margin-left: 20px;
+  margin-top: 30px;
+}
