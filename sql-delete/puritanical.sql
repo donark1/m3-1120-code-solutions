@@ -1,3 +1,3 @@
 delete from "films"
-  where "rating" = 'G'
+  where "rating" != 'G'
   returning *;
