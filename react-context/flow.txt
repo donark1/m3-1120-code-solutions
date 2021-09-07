@@ -1,0 +1,11 @@
+// User Can Sign Up
+When user reaches main page, the user will have the option to sign in (if hey have existing account), or sign up if they have never registered a user name before.  Once the user signs up and hits register, the information will then create a POST request to the server where the username will be be stored to the databased and the password will be hashed and then stored to the database as well.
+
+// User Can Sign In
+If the user has already created the account, they will enter their username and password and select log in.   The information entered will check if it matches to what is stored in the database through the use of the token and payload.  Once their information is validated, the next page will renders
+
+// User Can Stay Signed in (even if they refresh the page)
+Once the user has successfully signed in, their information is locally stored throught the windows.localStorage.setItem.   As long as the user doesn't not sign out, they can refresh the page as many times as they want and they will stay signed in.
+
+// User Can Sign Out
+When the user is finished, they can select the sign out option which will then trigger the windows.localStorage to remove the username and password items.
