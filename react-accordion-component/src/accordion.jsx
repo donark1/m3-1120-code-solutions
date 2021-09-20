@@ -1,12 +1,13 @@
 /* eslint-disable no-console */
 import React from 'react';
 
-
 export default class Accordion extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isClicked: null,
-    openId: 0};
+    this.state = {
+      isClicked: null,
+      openId: 0
+    };
     this.handleClick = this.handleClick.bind(this);
   }
 
